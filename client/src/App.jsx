@@ -22,6 +22,7 @@ function App() {
           <Navbar/>
           <Routes>
           <Route path="/" element={<LandingPage />}/>
+          <Route path="/" element={<LandingPage />}/>
           <Route path="/login" element={<LoginPage />}/>
           <Route path="/signup" element={<SignUpPage />}/>
           </Routes>
